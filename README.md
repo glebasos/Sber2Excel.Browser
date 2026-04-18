@@ -1,6 +1,6 @@
 # Sber2Excel.Browser
 
-WebAssembly-«голова» для [Sber2Excel](../Sber2Excel) — то же самое приложение, но крутится прямо в браузере. Никакого сервера, файлы пользователя на сервер не уходят: PDF разбирается в WASM, CSV/XLSX скачиваются через File System Access API.
+WebAssembly-«голова» для [Sber2Excel](https://github.com/glebasos/Sber2Excel) — то же самое приложение, но крутится прямо в браузере. Никакого сервера, файлы пользователя на сервер не уходят: PDF разбирается в WASM, CSV/XLSX скачиваются через File System Access API.
 
 ## Требования
 
@@ -48,7 +48,7 @@ Sber2Excel.Browser/
   Sber2Excel.Browser.csproj
 ```
 
-Весь UI и логика — в [`Sber2Excel`](../Sber2Excel). Здесь только хост.
+Весь UI и логика — в [`Sber2Excel`](https://github.com/glebasos/Sber2Excel). Здесь только хост.
 
 ## Особенности WASM-сборки
 
